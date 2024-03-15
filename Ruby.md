@@ -1,4 +1,4 @@
-# History of Ruby
+---layout: default---# History of Ruby
 ## Early concept[edit]
 Matsumoto has said that Ruby was conceived in 1993. In a 1999 post to theruby-talkmailing list, he describes some of his early ideas about the language:[11]
 Matsumoto describes the design of Ruby as being like a simpleLisplanguage at its core, with an object system like that of Smalltalk, blocks inspired byhigher-order functions, and practical utility like that of Perl.[12]He praised the language for its ingenuity and creativity for its solution for compiling intervals.

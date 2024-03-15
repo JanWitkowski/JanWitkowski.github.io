@@ -52,6 +52,9 @@ if opis==None:
     sys.exit(1)
 
 with open('index.md', 'w') as file:
+    file.write("---")
+    file.write('layout: default')
+    file.write('---')
     file.write("# "+title.text+'\n'+opis+'\n')
     file.write("[Link to see the table](tabela.md)")
 
@@ -70,6 +73,9 @@ for row in data:
     row[2]=row[2].replace(" ", "_")
 
 with open('tabela.md', 'w') as file:
+    file.write("---")
+    file.write('layout: default')
+    file.write('---')
     i=0
     for el in data:
         file.write('|')
@@ -96,6 +102,9 @@ for row in data:
     scrape_history(language)
     
     with open(language+".md", 'w') as file:
+        file.write("---")
+        file.write('layout: default')
+        file.write('---')
         file.write('# History of '+language+'\n')
         his=scrape_history(language)
         if not his:

@@ -1,4 +1,4 @@
-# History of Rust
+---layout: default---# History of Rust
 ## Origins (2006–2012)[edit]
 Rust grew out of a personal project begun in 2006 byMozillaResearch employee Graydon Hoare.[20]Mozilla began sponsoring the project in 2009 as a part of the ongoing development of an experimentalbrowser enginecalledServo,[21]which was officially announced by Mozilla in 2010.[22][23]During this time, the Rust logo was developed based on a bicyclechainring.[24]Around the same year, work shifted from the initialcompilerwritten inOCamlto aself-hosting compilerbased onLLVMwritten in Rust. The new Rust compiler successfullycompiled itselfin 2011.[21]
 ## Evolution (2012–2020)[edit]

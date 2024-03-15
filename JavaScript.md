@@ -1,4 +1,7 @@
----layout: default---# History of JavaScript
+---
+layout: default
+---
+# History of JavaScript
 ## Creation at Netscape
 The first popularweb browserwith agraphical user interface,Mosaic, was released in 1993. Accessible to non-technical people, it played a prominent role in the rapid growth of the earlyWorld Wide Web.[12]The lead developers of Mosaic then founded theNetscapecorporation, which released a more polished browser,Netscape Navigator, in 1994. This quickly became the most-used.[13]
 During these formative years of the Web,web pagescould only be static, lacking the capability for dynamic behavior after the page was loaded in the browser. There was a desire in the flourishing web development scene to remove this limitation, so in 1995, Netscape decided to add ascripting languageto Navigator. They pursued two routes to achieve this: collaborating withSun Microsystemsto embed theJavaprogramming language, while also hiringBrendan Eichto embed theSchemelanguage.[6]

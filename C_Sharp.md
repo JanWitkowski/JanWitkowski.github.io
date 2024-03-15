@@ -1,4 +1,7 @@
----layout: default---# History of C_Sharp
+---
+layout: default
+---
+# History of C_Sharp
 During the development of the.NET Framework, theclass librarieswere originally written using amanaged codecompiler system called"Simple Managed C"(SMC).[22][23]In January 1999,Anders Hejlsbergformed a team to build a new language at the time called Cool, which stood for "C-likeObject Oriented Language".[24]Microsoft had considered keeping the name "Cool" as the final name of the language, but chose not to do so for trademark reasons. By the time the .NET project was publicly announced at the July 2000Professional Developers Conference, the language had been renamed C#, and the class libraries andASP.NETruntime had been ported to C#.
 Hejlsberg is C#'s principal designer and lead architect at Microsoft, and was previously involved with the design ofTurbo Pascal,Embarcadero Delphi(formerly CodeGear Delphi, Inprise Delphi and Borland Delphi), andVisual J++. In interviews and technical papers he has stated that flaws[25]in most major programming languages (e.g.C++,Java,Delphi, andSmalltalk) drove the fundamentals of theCommon Language Runtime(CLR), which, in turn, drove the design of the C# language itself.
 James Gosling, who created theJavaprogramming language in 1994, andBill Joy, a co-founder ofSun Microsystems, the originator of Java, called C# an "imitation" of Java; Gosling further said that "[C# is] sort of Java with reliability, productivity and security deleted."[26][27]In July 2000, Hejlsberg said that C# is "not a Java clone" and is "much closer to C++" in its design.[28]

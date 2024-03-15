@@ -1,9 +1,12 @@
----layout: default---# History of Go
+---
+layout: default
+---
+# History of Go
 Go was designed atGooglein 2007 to improveprogramming productivityin an era ofmulticore,networkedmachinesand largecodebases.[22]The designers wanted to address criticisms of other languages in use at Google, but keep their useful characteristics:[23]
 Its designers were primarily motivated by their shareddislike of C++.[25][26][27]
 Go was publicly announced in November 2009,[28]and version 1.0 was released in March 2012.[29][30]Go is widely used in production at Google[31]and in many other organizations and open-source projects.
 ## Branding and styling[edit]
-TheGophermascotwas introduced in 2009 for theopen sourcelaunch of the language.  The design, byRenée French, borrowed from a c. 2000WFMUpromotion.[32]
+TheGophermascotwas introduced in 2009 for theopen sourcelaunch of the language.  The design, byRene French, borrowed from a c. 2000WFMUpromotion.[32]
 In November 2016, the Go and Go Mono fonts were released by type designersCharles BigelowandKris Holmesspecifically for use by the Go project. Go is ahumanist sans-serifresemblingLucida Grande, and Go Mono ismonospaced. Both fonts adhere to theWGL4character set and were designed to be legible with a largex-heightand distinctletterforms. Both Go and Go Mono adhere to theDIN1450 standard by having a slashed zero, lowercaselwith a tail, and an uppercaseIwith serifs.[33][34]
 In April 2018, the original logo was redesigned by brand designerAdam Smith. The new logo is a modern, stylized GO slanting right with trailing streamlines. (The Gopher mascot remained the same.[35])
 ## Generics[edit]

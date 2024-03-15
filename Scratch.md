@@ -1,4 +1,7 @@
----layout: default---# History of Scratch
+---
+layout: default
+---
+# History of Scratch
 In the early 2000s, theMIT Media Lab'sLifelong Kindergartengroup (LLK) was developing visual programming languages targeted towards children.[47]In 2003,Mitchel Resnick,Yasmin Kafai, andJohn Maedawere awarded aNational Science Foundationgrant for the development of a new programming environment for children to express themselves with code.[9]The LLK, led by Mitchel Resnick, in partnership withYasmin Kafai's team atUCLAworked closely withComputer Clubhousesin Boston and Los Angeles to develop Scratch, grounding its design in the practices and social dynamics of these after-school youth centers.[9]It started as a basic programming language, with no labeled categories and no green flag.[48]Similar to AgentSheets[49]Scratch employed concepts of Tactile Programming later known as blocks-based programming. Scratch was made with the intention to teach kids to program.[48]
 The philosophy of Scratch encourages the sharing, reuse, and combination of code, as indicated by the team slogan, "Imagine, Program, Share".[50]Users can make their own projects, or they may choose to "remix" someone else's project. Projects created and remixed with Scratch are licensed under theCreative Commons Attribution-Share Alike License.[51]Scratch automatically gives credit to the user who created the original project and program in the top part of the project page.[11]
 Scratch was developed based on ongoing interaction with youth and staff at Computer Clubhouses. The use of Scratch at Computer Clubhouses served as a model for other after-school centers demonstrating how informal learning settings can support the development of technological fluency.[52]

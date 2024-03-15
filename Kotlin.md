@@ -1,4 +1,7 @@
----layout: default---# History of Kotlin
+---
+layout: default
+---
+# History of Kotlin
 In July 2011,JetBrainsunveiled Project Kotlin, a new language for the JVM, which had been under development for a year.[11]JetBrains lead Dmitry Jemerov said that most languages did not have the features they were looking for, with the exception ofScala. However, he cited the slowcompilationtime of Scala as a deficiency.[11]One of the stated goals of Kotlin is to compile as quickly as Java. In February 2012, JetBrains open sourced the project under theApache 2 license.[12]
 The name comes fromKotlin Island, nearSt. Petersburg.Andrey Breslavmentioned that the team decided to name it after an island, just like Java was named after the Indonesian island ofJava[13](though Java, the programming language's name, is said to have been inspired by "java" the American slang term for coffee,[14]which itself derives from the island name).[15]
 JetBrains hoped that the new language would driveIntelliJ IDEAsales.[16]

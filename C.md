@@ -1,4 +1,7 @@
----layout: default---# History of C
+---
+layout: default
+---
+# History of C
 ## Early developments[edit]
 The origin of C is closely tied to the development of theUnixoperating system, originally implemented inassembly languageon aPDP-7byDennis RitchieandKen Thompson, incorporating several ideas from colleagues.  Eventually, they decided to port the operating system to aPDP-11. The original PDP-11 version of Unix was also developed in assembly language.[8]
 ### B[edit]

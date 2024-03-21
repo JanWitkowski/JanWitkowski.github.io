@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of SwiftSwift.png
+# History of Swift
 ![/assets/Swift.png](/assets/Swift.png)
 Development of Swift started in July 2010 byChris Lattner, with the eventual collaboration of many other programmers atApple. Swift was motivated by the need for a replacement for Apple's earlier programming languageObjective-C, which had been largely unchanged since the early 1980s and lacked modern language features. Swift took language ideas "fromObjective-C,Rust,Haskell,Ruby,Python,C#,CLU, and far too many others to list".[7]On June 2, 2014, theApple Worldwide Developers Conference(WWDC) application became the first publicly released app written with Swift.[25]Abeta versionof theprogramming languagewas released to registered Apple developers at the conference, but the company did not promise that the final version of Swift would besource codecompatible with the test version. Apple planned to make source code converters available if needed for the full release.[25]
 The Swift Programming Language, a free 500-page manual, was also released at WWDC, and is available on theApple BooksStore and the official website.[26]

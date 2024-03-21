@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of PythonPython.png
+# History of Python
 ![/assets/Python.png](/assets/Python.png)
 Python was conceived in the late 1980s[40]byGuido van RossumatCentrum Wiskunde & Informatica(CWI) in theNetherlandsas a successor to theABC programming language, which was inspired bySETL,[41]capable ofexception handlingand interfacing with theAmoebaoperating system.[10]Its implementation began in December 1989.[42]Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's "benevolent dictator for life", a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker.[43]In January 2019, active Python core developers elected a five-member Steering Council to lead the project.[44][45]
 Python 2.0 was released on 16 October 2000, with many major new features such aslist comprehensions,cycle-detectinggarbage collection,reference counting, andUnicodesupport.[46]Python 3.0, released on 3 December 2008, with many of its major featuresbackportedto Python 2.6.x[47]and 2.7.x. Releases of Python 3 include the2to3utility, which automates the translation of Python 2 code to Python 3.[48]

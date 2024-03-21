@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of C++C++.png
+# History of C++
 ![/assets/C++.png](/assets/C++.png)
 In 1979,Bjarne Stroustrup, a Danishcomputer scientist, began work on "C withClasses", the predecessor to C++.[21]The motivation for creating a new language originated from Stroustrup's experience in programming for his PhD thesis. Stroustrup found thatSimulahad features that were very helpful for large software development, but the language was too slow for practical use, whileBCPLwas fast but too low-level to be suitable for large software development. When Stroustrup started working inAT&T Bell Labs, he had the problem of analyzing theUNIXkernelwith respect todistributed computing. Remembering his PhD experience, Stroustrup set out to enhance theClanguage withSimula-like features.[22]C was chosen because it was general-purpose, fast, portable, and widely used. In addition to C and Simula's influences, other languages influenced this new language, includingALGOL 68,Ada,CLU, andML.[citation needed]
 Initially, Stroustrup's "C with Classes" added features to the C compiler, Cpre, includingclasses,derived classes,strong typing,inlining, anddefault arguments.[23]

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of JavaScriptJavaScript.png
+# History of JavaScript
 ![/assets/JavaScript.png](/assets/JavaScript.png)
 ## Creation at Netscape
 The first popularweb browserwith agraphical user interface,Mosaic, was released in 1993. Accessible to non-technical people, it played a prominent role in the rapid growth of the earlyWorld Wide Web.[12]The lead developers of Mosaic then founded theNetscapecorporation, which released a more polished browser,Netscape Navigator, in 1994. This quickly became the most-used.[13]

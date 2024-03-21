@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of COBOLCOBOL.png
+# History of COBOL
 ![/assets/COBOL.png](/assets/COBOL.png)
 ## Background[edit]
 In the late 1950s, computer users and manufacturers were becoming concerned about the rising cost of programming. A 1959 survey had found that in any data processing installation, the programming cost US$800,000 on average and that translating programs to run on new hardware would cost $600,000. At a time when newprogramming languages were proliferating, the same survey suggested that if a common business-oriented language were used, conversion would be far cheaper and faster.[16]

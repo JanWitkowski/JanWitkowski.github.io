@@ -110,8 +110,8 @@ for row in data:
         file.write("---\n")
         file.write('layout: default\n')
         file.write('---\n')
-        file.write('# History of '+language)
-        file.write(language+'.png\n')
+        file.write('# History of '+language+'\n')
+        
         his=scrape_history(language)
         if not his:
             file.write(f"Unfortunately we could not find the History of "+language+" programing language. Our most sincere apologies.")

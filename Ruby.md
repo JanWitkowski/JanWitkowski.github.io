@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of RubyRuby.png
+# History of Ruby
 ![/assets/Ruby.png](/assets/Ruby.png)
 ## Early concept[edit]
 Matsumoto has said that Ruby was conceived in 1993. In a 1999 post to theruby-talkmailing list, he describes some of his early ideas about the language:[11]

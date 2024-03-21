@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-# History of DelphiDelphi.png
+# History of Delphi
 ![/assets/Delphi.png](/assets/Delphi.png)

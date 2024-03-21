@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of SQLSQL.png
+# History of SQL
 ![/assets/SQL.png](/assets/SQL.png)
 SQL was initially developed atIBMbyDonald D. ChamberlinandRaymond F. Boyceafter learning about the relational model fromEdgar F. Codd[12]in the early 1970s.[13]This version, initially called SEQUEL (Structured English Query Language), was designed to manipulate and retrieve data stored in IBM's original quasirelational database management system,System R, which a group atIBM San Jose Research Laboratoryhad developed during the 1970s.[13]
 Chamberlin and Boyce's first attempt at a relational database language was SQUARE (Specifying Queries in A Relational Environment), but it was difficult to use due to subscript/superscript notation. After moving to the San Jose Research Laboratory in 1973, they began work on a sequel to SQUARE.[12]The original name SEQUEL,  which is widely regarded as a pun onQUEL, the query language ofIngres,[14]was later changed to SQL (dropping the vowels) because "SEQUEL" was atrademarkof the UK-basedHawker SiddeleyDynamics Engineering Limited company.[15]The label SQL later became the acronym for Structured Query Language.

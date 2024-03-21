@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of PHPPHP.png
+# History of PHP
 ![/assets/PHP.png](/assets/PHP.png)
 ## Early history[edit]
 PHP development began in 1993[9]whenRasmus Lerdorfwrote severalCommon Gateway Interface(CGI) programs inC,[20][21]which he used to maintain hispersonal homepage. He extended them to work withweb formsand to communicate withdatabases, and called this implementation "Personal Home Page/Forms Interpreter" or PHP/FI.

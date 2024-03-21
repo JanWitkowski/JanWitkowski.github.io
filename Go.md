@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# History of GoGo.png
+# History of Go
 ![/assets/Go.png](/assets/Go.png)
 Go was designed atGooglein 2007 to improveprogramming productivityin an era ofmulticore,networkedmachinesand largecodebases.[22]The designers wanted to address criticisms of other languages in use at Google, but keep their useful characteristics:[23]
 Its designers were primarily motivated by their shareddislike of C++.[25][26][27]

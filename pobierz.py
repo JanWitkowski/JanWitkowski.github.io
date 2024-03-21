@@ -9,12 +9,17 @@ def scrape_history(language):
     if response.status_code==200:
         helpsoup = BeautifulSoup(response.text, 'html.parser')
         headers=helpsoup.find_all(['h1', 'h2', 'h3'])
+        image=helpsoup.find('img')
+        image=image.find_next_sibling()
         hisheader=None    
         for h in headers:
             if "History" in h.text:
                 hisheader=h
                 break
         if hisheader:
+            s="![/assets/"+language+".png](/assets/"+language+".png)"               
+            his.append(s)
+
             hlvl=int(hisheader.name[1])
             
             nastel=hisheader.find_next_sibling()
@@ -56,7 +61,7 @@ with open('index.md', 'w') as file:
     file.write('layout: default\n')
     file.write('---\n')
     file.write("# "+title.text+'\n'+opis+'\n')
-    file.write("[Link to see the table](tabela.md)")
+    file.write("[Link to see the table](tabela.html)")
 
 #collecting the table 
 table=soup.find('table')
@@ -90,7 +95,7 @@ with open('tabela.md', 'w') as file:
         for le in el:
             file.write(le+'|')
         
-        file.write("[see history...]("+el[2]+".md)|\n")
+        file.write("[see history...]("+el[2]+".html)|\n")
 
 #creating subsites
 i=0
@@ -105,13 +110,13 @@ for row in data:
         file.write("---\n")
         file.write('layout: default\n')
         file.write('---\n')
-        file.write('# History of '+language+'\n')
+        file.write('# History of '+language)
+        file.write(language+'.png\n')
         his=scrape_history(language)
         if not his:
             file.write(f"Unfortunately we could not find the History of "+language+" programing language. Our most sincere apologies.")
         else:
             for el in his:
-                #el=el.replace('#', 'Sharp')
                 if not (el.startswith("Due to technical") or el.startswith("In 1999, the first English language mailing")):
                     file.write(el+'\n')
                 else:

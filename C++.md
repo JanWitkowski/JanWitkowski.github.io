@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-# History of C++
+# History of C++C++.png
+![/assets/C++.png](/assets/C++.png)
 In 1979,Bjarne Stroustrup, a Danishcomputer scientist, began work on "C withClasses", the predecessor to C++.[21]The motivation for creating a new language originated from Stroustrup's experience in programming for his PhD thesis. Stroustrup found thatSimulahad features that were very helpful for large software development, but the language was too slow for practical use, whileBCPLwas fast but too low-level to be suitable for large software development. When Stroustrup started working inAT&T Bell Labs, he had the problem of analyzing theUNIXkernelwith respect todistributed computing. Remembering his PhD experience, Stroustrup set out to enhance theClanguage withSimula-like features.[22]C was chosen because it was general-purpose, fast, portable, and widely used. In addition to C and Simula's influences, other languages influenced this new language, includingALGOL 68,Ada,CLU, andML.[citation needed]
 Initially, Stroustrup's "C with Classes" added features to the C compiler, Cpre, includingclasses,derived classes,strong typing,inlining, anddefault arguments.[23]
 In 1982, Stroustrup started to develop a successor to C with Classes, which he named "C++" (++being theincrement operatorin C) after going through several other names. New features were added, includingvirtual functions, function name andoperator overloading,references, constants, type-safe free-store memory allocation (new/delete), improved type checking, and BCPL-style single-line comments with two forward slashes (//). Furthermore, Stroustrup developed a new, standalone compiler for C++,Cfront.
@@ -11,7 +12,7 @@ In 1989, C++ 2.0 was released, followed by the updated second edition ofThe C++ 
 In 1998, C++98 was released, standardizing the language, and a minor update (C++03) was released in 2003.
 After C++98, C++ evolved relatively slowly until, in 2011, theC++11standard was released, adding numerous new features, enlarging the standard library further, and providing more facilities to C++ programmers. After a minorC++14update released in December 2014, various new additions were introduced inC++17.[26]After becoming finalized in February 2020,[27]a draft of the C++20 standard was approved on 4 September 2020, and officially published on 15 December 2020.[28][29]
 On January 3, 2018, Stroustrup was announced as the 2018 winner of theCharles Stark Draper Prizefor Engineering, "for conceptualizing and developing the C++ programming language".[30]
-As of December2022[update], C++ ranked third on theTIOBE index, surpassingJavafor the first time in the history of the index. It ranks third, afterPythonandC.[31]
+As of December 2022[update], C++ ranked third on theTIOBE index, surpassingJavafor the first time in the history of the index. It ranks third, afterPythonandC.[31]
 ## Etymology[edit]
 According to Stroustrup, "the name signifies the evolutionary nature of the changes from C."[32]This name is credited to Rick Mascitti (mid-1983)[23]and was first used in December 1983. When Mascitti was questioned informally in 1992 about the naming, he indicated that it was given in atongue-in-cheekspirit. The name comes from C's++operator(whichincrementsthevalueof avariable) and a commonnaming conventionof using "+" to indicate an enhanced computer program.
 During C++'s development period, the language had been referred to as "new C" and "C with Classes"[23][33]before acquiring its final name.

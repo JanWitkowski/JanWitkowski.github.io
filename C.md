@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-# History of C
+# History of CC.png
+![/assets/C.png](/assets/C.png)
 ## Early developments[edit]
 The origin of C is closely tied to the development of theUnixoperating system, originally implemented inassembly languageon aPDP-7byDennis RitchieandKen Thompson, incorporating several ideas from colleagues.  Eventually, they decided to port the operating system to aPDP-11. The original PDP-11 version of Unix was also developed in assembly language.[8]
 ### B[edit]
@@ -45,7 +46,7 @@ Published in June 2018 as ISO/IEC 9899:2018, C17 is the current standard for the
 ## C23[edit]
 C23 is the informal name for the next (after C17) major C language standard revision. It was informally known as "C2X" through most of its development. C23 is expected to be published in early 2024 as ISO/IEC 9899:2024.[25]The standard macro__STDC_VERSION__is defined as202311Lto indicate that C23 support is available.
 ## C2Y[edit]
-C2Y is an informal name for the next (after C23) major C language standard revision that is hoped to be released later in the2020sdecade, per the two in "C2Y". An early working draft of C2Y was released in February 2024 as N3220 by the working groupISO/IEC JTC1/SC22/WG14.[26]
+C2Y is a temporary informal name for the next major C language standard revision, after C23 (C2X), that is hoped to be released later in the2020sdecade, per the two in "C2Y". An early working draft of C2Y was released in February 2024 as N3220 by the working groupISO/IEC JTC1/SC22/WG14.[26]
 ## Embedded C[edit]
 Historically, embedded C programming requires nonstandard extensions to the C language in order to support exotic features such asfixed-point arithmetic, multiple distinct memory banks, and basic I/O operations.
 In 2008, the C Standards Committee published atechnical reportextending the C language[27]to address these issues by providing a common standard for all implementations to adhere to. It includes a number of features not available in normal C, such asfixed-point arithmetic, named address spaces, and basic I/O hardware addressing.

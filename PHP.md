@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-# History of PHP
+# History of PHPPHP.png
+![/assets/PHP.png](/assets/PHP.png)
 ## Early history[edit]
 PHP development began in 1993[9]whenRasmus Lerdorfwrote severalCommon Gateway Interface(CGI) programs inC,[20][21]which he used to maintain hispersonal homepage. He extended them to work withweb formsand to communicate withdatabases, and called this implementation "Personal Home Page/Forms Interpreter" or PHP/FI.
 An example of the early PHPsyntax:[22]
@@ -32,6 +33,7 @@ PHP 8'sJIT compilercan provide substantial performance improvements for some use
 ### Addition of the match expression[edit]
 PHP 8 introduced thematchexpression.[79]The match expression is conceptually similar to aswitchstatement and is more compact for some use cases.[80]Becausematchis an expression, its result can be assigned to a variable or returned from a function.[81]
 ### Type changes and additions[edit]
+
 PHP 8 introduced union types, a newstaticreturn type, and a newmixedtype.[72]
 "Attributes", often referred to as "annotations" in other programming languages, were added in PHP 8, which allow metadata to be added to classes.[72]
 throwwas changed from being a statement to being an expression.[82]This allows exceptions to be thrown in places that were not previously possible.[72]

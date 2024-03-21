@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-# History of Ruby
+# History of RubyRuby.png
+![/assets/Ruby.png](/assets/Ruby.png)
 ## Early concept[edit]
 Matsumoto has said that Ruby was conceived in 1993. In a 1999 post to theruby-talkmailing list, he describes some of his early ideas about the language:[11]
 Matsumoto describes the design of Ruby as being like a simpleLisplanguage at its core, with an object system like that of Smalltalk, blocks inspired byhigher-order functions, and practical utility like that of Perl.[12]He praised the language for its ingenuity and creativity for its solution for compiling intervals.
@@ -22,7 +23,7 @@ Effective with Ruby 1.9.3, released October 31, 2011,[27]Ruby switched from bein
 ## Ruby 2[edit]
 Ruby 2.0 was intended to be fully backward compatible with Ruby 1.9.3. As of the official 2.0.0 release on February 24, 2013, there were only five known (minor) incompatibilities.[30]Ruby 2.0 added several new features, including:
 Starting with 2.1.0, Ruby's versioning policy changed to be more similar tosemantic versioning.[32]
-Ruby 2.2.0 includes speed-ups, bugfixes, and library updates and removes some deprecated APIs. Most notably, Ruby 2.2.0 introduces changes to memory handling     an incremental garbage collector, support for garbage collection of symbols and the option to compile directly against jemalloc. It also contains experimental support for usingvfork(2) with system() and spawn(), and added support for theUnicode7.0 specification. Since version 2.2.1,[33]Ruby MRIperformance onPowerPC64was improved.[34][35][36]Features that were made obsolete or removed include callcc, the DL library, Digest::HMAC, lib/rational.rb, lib/complex.rb, GServer, Logger::Application as well as various C API functions.[37]
+Ruby 2.2.0 includes speed-ups, bugfixes, and library updates and removes some deprecated APIs. Most notably, Ruby 2.2.0 introduces changes to memory handling   an incremental garbage collector, support for garbage collection of symbols and the option to compile directly against jemalloc. It also contains experimental support for usingvfork(2) with system() and spawn(), and added support for theUnicode7.0 specification. Since version 2.2.1,[33]Ruby MRIperformance onPowerPC64was improved.[34][35][36]Features that were made obsolete or removed include callcc, the DL library, Digest::HMAC, lib/rational.rb, lib/complex.rb, GServer, Logger::Application as well as various C API functions.[37]
 Ruby 2.3.0 includes many performance improvements, updates, and bugfixes including changes to Proc#call, Socket and IO use of exception keywords, Thread#name handling, default passive Net::FTP connections, and Rake being removed from stdlib.[38]Other notable changes include:
 Ruby 2.4.0 includes performance improvements to hash table, Array#max, Array#min, and instance variable access.[40]Other notable changes include:
 A few notable changes in Ruby 2.5.0 includerescueandensurestatements automatically use a surroundingdo-endblock (less need for extrabegin-endblocks), method-chaining withyield_self, support for branch coverage and method coverage measurement, and easier Hash transformations withHash#sliceandHash#transform_keysOn top of that come a lot of performance improvements like faster block passing (3 times faster), faster Mutexes, faster ERB templates and improvements on some concatenation methods.

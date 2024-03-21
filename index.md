@@ -8,4 +8,4 @@ skilled engineers world-wide, courses and third party vendors. Popular web sites
 Google, Amazon, Wikipedia, Bing and more than 20 others are used to calculate the ratings.
 It is important to note that the TIOBE index is not about the best programming language or the language
 in which most lines of code have been written.
-[Link to see the table](tabela.md)
+[Link to see the table](tabela.html)

@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-# History of Rust
-## Origins (2006   2012)[edit]
+# History of RustRust.png
+![/assets/Rust.png](/assets/Rust.png)
+## Origins (2006  2012)[edit]
 Rust grew out of a personal project begun in 2006 byMozillaResearch employee Graydon Hoare.[20]Mozilla began sponsoring the project in 2009 as a part of the ongoing development of an experimentalbrowser enginecalledServo,[21]which was officially announced by Mozilla in 2010.[22][23]During this time, the Rust logo was developed based on a bicyclechainring.[24]Around the same year, work shifted from the initialcompilerwritten inOCamlto aself-hosting compilerbased onLLVMwritten in Rust. The new Rust compiler successfullycompiled itselfin 2011.[21]
-## Evolution (2012   2020)[edit]
+## Evolution (2012  2020)[edit]
 Rust'stype systemunderwent significant changes between versions 0.2, 0.3, and 0.4. In version 0.2, which was released in March 2012,classeswere introduced for the first time.[25]Four months later, version 0.3 addeddestructorsandpolymorphism, through the use of interfaces.[26]In October 2012, version 0.4 was released, which addedtraitsas a means ofinheritance. Interfaces were combined with traits and removed as a separate feature; and classes were replaced by a combination of implementations andstructured types.[27]
 Through the early 2010s, memory management through the ownership system was gradually consolidated to prevent memory bugs. By 2013, Rust'sgarbage collectorwas removed, with the ownership rules in place.[20]
 In January 2014, the editor-in-chief ofDr. Dobb's Journal, Andrew Binstock, commented on Rust's chances of becoming a competitor toC++, along withD,Go, andNim(then Nimrod). According to Binstock, while Rust was "widely viewed as a remarkably elegant language", adoption slowed because it radically changed from version to version.[28]The firststable release, Rust 1.0, was announced on May 15, 2015.[29][30]
 The development of the Servo browser engine continued alongside Rust's own growth. In September 2017, Firefox 57 was released as the first version that incorporated components from Servo, in a project named "Firefox Quantum".[31]
-## Mozilla layoffs and Rust Foundation (2020   present)[edit]
+## Mozilla layoffs and Rust Foundation (2020  present)[edit]
 In August 2020, Mozilla laid off 250 of its 1,000 employees worldwide, as part of a corporate restructuring caused by theCOVID-19 pandemic.[32][33]The team behind Servo was disbanded. The event raised concerns about the future of Rust, as some members of the team were active contributors to Rust.[34]In the following week, the Rust Core Team acknowledged the severe impact of the layoffs and announced that plans for a Rust foundation were underway. The first goal of the foundation would be to take ownership of alltrademarksanddomain names, and take financial responsibility for their costs.[35]
 On February 8, 2021, the formation of theRust Foundationwas announced by its five founding companies (AWS,Huawei,Google,Microsoft, andMozilla).[36][37]In ablogpost published on April 6, 2021, Google announced support for Rust within theAndroid Open Source Projectas an alternative to C/C++.[38]
 On November 22, 2021, the Moderation Team, which was responsible for enforcing community standards and the Code of Conduct, announced their resignation "in protest of the Core Team placing themselves unaccountable to anyone but themselves".[39]In May 2022, the Rust Core Team, other lead programmers, and certain members of the Rust Foundation board implemented governance reforms in response to the incident.[40]

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona2</title>
+    
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <header>
+        <h1>Moja Strona Internetowa</h1>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Tytuł strony</h1>
+        <article>
+            <h2>Tytuł artykułu</h2>
+            <p>1 paragraf artykułu zawierający
+                <s>skreślony tekst</s>
+            </p>
+            <p>drugi paragraf artykułu zawierający <strong>pogrubiony tekst</strong> </p>
+            <p>III paragraf zawierający <strong><em> pogrubiony pisany kursywą</em></strong>
+            </p>
+        </article>
+
+        <pre style="font-family: Arial, Helvetica, sans-serif;"><u>
+Podkreślony tekst
+
+</u></pre>
+        <table>
+            <caption>
+                <h2>Tytuł Tabeli</h2>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Tytuł</th>
+                    <th>Autor</th>
+                    <th>Rok Wydania</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hobbit
+                    <td>
+                    <td>Tolkien </td>
+                    <td>1937</td>
+                </tr>
+                <tr>
+                    <td>Star Wars
+                    <td>
+                    <td>Lucas </td>
+                    <td>1977</td>
+                </tr>
+                <tr>
+                    <td>Kacze opowieści
+                    <td>
+                    <td>Disney </td>
+                    <td>1987</td>
+                </tr>
+            </tbody>
+        </table>
+        <details>
+            <summary>Przepis na grog</summary>
+            <ol type="I">
+                <li>Weź kubek o pojemności ok. 300 ml</li>
+                <li>Wlej 50 ml wódki</li>
+                <li>Wlej 50 ml soku malinowego</li>
+                <li>Dodaj pokrojony na ćwiartki plasterek pomarańczy</li>
+                <li>Dodaj szczyptę cynamonu</li>
+                <li>Dodaj dwa goździki</li>
+                <li>Dopełnij gorącą wodą</li>
+            </ol>
+        </details>
+        <h2>Dodawanie obrazka do strony</h2>
+        <img src="aston.jpg" alt="DB5" width="400">
+
+        <h2>Formularz</h2>
+        <form action="submit_form" method="post">
+            <!-- Text Input Field -->
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <!-- Select Dropdown with Option Groups -->
+            <label for="options">Wybierz opcję:</label>
+            <select id="options" name="options">
+                <optgroup label="Grupa 1">
+                    <option value="option1">Opcja 1</option>
+                    <option value="option2">Opcja 2</option>
+                </optgroup>
+                <optgroup label="Grupa 2">
+                    <option value="option3">Opcja 3</option>
+                    <option value="option4">Opcja 4</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <!-- Button -->
+            <button type="submit">Wyślij</button>
+        </form>
+        <h2>Paski postępu dla zadań</h2>
+
+
+        <h3>Zadanie 1</h3>
+        <progress value="70" max="100"></progress>
+        <p>Postęp: 70%</p>
+
+
+        <h3>Zadanie 2</h3>
+        <progress value="45" max="100"></progress>
+        <p>Postęp: 45%</p>
+        <h2>De dust</h2>
+        <style>
+            area {
+                outline: 2px solid rgba(255, 0, 0, 0.5); 
+            }
+        </style>
+        <img src="de_dust1.jpg" width="400"  alt="Mapa csik" usemap="#dust" >
+        <map name="dust">
+            <area shape="rect" coords="140,60,200,210" alt="Obszar prostokątny" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <area shape="circle" coords="30,155,30" alt="bomb side B" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <area shape="circle" coords="180,255,40" alt="bombside A" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        </map>
+    </main>
+    <footer>
+        <p>To jest stópka</p>
+    </footer>
+</body>

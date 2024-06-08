@@ -41,3 +41,34 @@ th, td {
   background-color: #96D4D4;
     text-align: left; /* wyrównuje tekst do lewej */
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  margin: 10px;
+}
+.box2 {
+  
+  background-color: skyblue;
+  margin: 10px;
+}
+
+.box1 {
+  display: flex-auto;
+  background-color: skyblue;
+  margin: 10px;
+}
+.boxnone {
+  display: flex-none;
+  background-color: skyblue;
+  margin: 10px;
+}

@@ -49,24 +49,25 @@ Podkreślony tekst
             <tbody>
                 <tr>
                     <td>Hobbit
-                    <td>
+                
                     <td>Tolkien </td>
                     <td>1937</td>
                 </tr>
                 <tr>
                     <td>Star Wars
-                    <td>
+                
                     <td>Lucas </td>
                     <td>1977</td>
                 </tr>
                 <tr>
                     <td>Kacze opowieści
-                    <td>
+                    
                     <td>Disney </td>
                     <td>1987</td>
                 </tr>
             </tbody>
         </table>
+        
         <details>
             <summary>Przepis na grog</summary>
             <ol type="I">
@@ -86,7 +87,6 @@ Podkreślony tekst
         </div>
         <div class="bg-green-500">
         <form action="submit_form" method="post">
-            <!-- Text Input Field -->
             <label for="name">Imię:</label>
             <input type="text" id="name" name="name" required>
             <br><br>
@@ -104,23 +104,27 @@ Podkreślony tekst
             </select>
             <br><br>
 
-            <!-- Button -->
-            <button type="submit">Wyślij</button>
+            
+            <div class="w-12  bg-yellow-500 rounded-full animate-ping">
+            <button type="submit">Wyślij</button></div>
+            <br>
         </form>
         </div>
         <h2>Paski postępu dla zadań</h2>
 
 
         <h3>Zadanie 1</h3>
-        <div class="shadow-md p-4">
+        <div class="shadow-md inline-block">
         <progress value="70" max="100"></progress>
         <p>Postęp: 70%</p>
         </div>
 
 
         <h3>Zadanie 2</h3>
+        <div class="shadow-md inline-block">
         <progress value="45" max="100"></progress>
         <p>Postęp: 45%</p>
+        </div>
         <h2>De dust</h2>
         
         <img src="src/de_dust1.jpg" width="400"  alt="Mapa csik" usemap="#dust" >
@@ -129,8 +133,20 @@ Podkreślony tekst
             <area shape="circle" coords="30,155,30" alt="bomb side B" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <area shape="circle" coords="180,255,40" alt="bombside A" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
         </map>
+        <h3 style="align-items: center;">Flex row</h3>
+        <div class="container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+          </div>
+
+          <div class="container" style="flex-direction: column;">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+          </div>
     </main>
-    <footer class="bg-yellow-500 text-gray-900">
+    <footer class="bg-yellow-500 text-green-900">
         <p>To jest stópka</p>
     </footer>
 </body>

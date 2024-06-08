@@ -9,33 +9,37 @@ body {
 h1 {
     font-size: 2.5rem; 
     font-weight: bold;
+    margin: 20px; padding: 10px 20px;
   }
   
   h2 {
     font-size: 2rem; 
     font-weight: bold;
+    margin: 20px; 
   }
   
   h3 {
     font-size: 1.75rem; 
     font-weight: bold;
+    margin: 20px; padding: 10px 20px;
   }
   
   h4 {
     font-size: 1.5rem; 
     font-weight: bold;
+    margin: 20px; padding: 10px 20px;
   }
   a {
     color: blue; 
   }
 
   table {
-    border: 1px solid rgb(92, 5, 5);    width: 100%;
+    border: 1px solid rgb(92, 5, 5);   
     border-collapse: collapse;
 }
 
 th, td {
-  border: 1px solid white;    width: 100%;
+  border: 1px solid white;   
   border-radius: 10px;
 
   background-color: #96D4D4;

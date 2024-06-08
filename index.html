@@ -11,17 +11,19 @@
 
 <body>
     <header style="background-color: #96D4D4;">
-        <h1>Moja Strona Internetowa</h1>
+
+        <h1 style="margin-left: 2rem;">Moja Strona Internetowa</h1>
         <nav style="margin: 2rem;">
             <a href="#home">Home</a> |
             <a href="#about">About</a> |
             <a href="#contact">Contact</a>
         </nav>
+        
     </header>
 
     <main>  
        
-        <article  style="margin: 20px;">
+        <article  style="margin: 2rem;">
             <h2>Tytuł artykułu</h2>
             <p class="text-orange-500">1 paragraf artykułu zawierający
                 <s>skreślony tekst</s>
@@ -31,12 +33,12 @@
             </p>
         </article>
 
-        <pre style="margin: 20px;"><u>
+        <pre style="margin: 2rem;"><u>
 Podkreślony tekst
 
 </u></pre>
   
-        <table class="table-auto" style="margin: 20px;">
+        <table class="table-auto" style="margin: 2rem;">
             <caption>
                 <h2>Tytuł Tabeli</h2>
             </caption>
@@ -69,7 +71,7 @@ Podkreślony tekst
             </tbody>
         </table>
         <br>
-        <details style="margin: 20px;">
+        <details style="margin: 2rem;">
             <summary>Przepis na grog</summary>
             <ol type="I">
                 <li>Weź kubek o pojemności ok. 300 ml</li>
@@ -83,20 +85,20 @@ Podkreślony tekst
         </details>
         <br>
         <h2>Dodawanie obrazka do strony</h2>
-        <img src="src/aston.jpg" alt="DB5" width="400" style="margin: 20px;">
+        <img src="src/aston.jpg" alt="DB5" style="width: 40%; margin: 2rem;">
         <br>
 
 
         <h2 class="w-auto text-center rounded-lg bg-orange-400">Formularz</h2>
 
 
-        <form class="bg-orange-300 rounded-lg"  action="submit_form" method="post" style="margin: 20px;">
+        <form class="bg-orange-300 rounded-lg"  action="submit_form" method="post" style="margin: 2rem;padding: 2rem;">
             <label for="name">Imię:</label>
-            <input class="bg-orange-200" type="text" id="name" name="name" required>
-            <br><br>
+            <input class="bg-orange-200" type="text" id="name" name="name" required >
 
+<br>
             <label for="options">Wybierz opcję:</label>
-            <select class="bg-orange-200" id="options" name="options">
+            <select class="bg-orange-200" id="options" name="options" >
                 <optgroup label="Grupa 1">
                     <option value="option1">Opcja 1</option>
                     <option value="option2">Opcja 2</option>
@@ -110,19 +112,19 @@ Podkreślony tekst
 
             
             <div class="w-20  bg-orange-200 rounded-full animate-ping">
-            <button type="submit" style=" padding: 10px 20px;">Wyślij</button></div>
+            <button type="submit" style=" padding: 10px 2rem;">Wyślij</button></div>
             <br>
         </form>
 <br>
         <h2>Paski postępu dla zadań</h2>
 
-    <div class="shadow-md inline-block" style="margin: 20px;">
+    <div class="shadow-md inline-block" style="margin: 2rem;">
         <h3>Zadanie 1</h3>
         <progress value="70" max="100"></progress>
         <p>Postęp: 70%</p>
         </div>
 
-    <div class="shadow-md inline-block" style="margin: 20px;">
+    <div class="shadow-md inline-block" style="margin: 2rem;">
         <h3>Zadanie 2</h3>
         <progress value="45" max="100"></progress>
         <p>Postęp: 45%</p>
@@ -130,7 +132,7 @@ Podkreślony tekst
         <br><br>
         <h2>De dust</h2>
         
-        <img style="margin: 20px;" src="src/de_dust1.jpg" width="400"  alt="Mapa csik" usemap="#dust" >
+        <img style="margin: 2rem;" src="src/de_dust1.jpg" width="400"  alt="Mapa csik" usemap="#dust" >
         <map name="dust">
             <area shape="rect" coords="140,60,200,210" alt="Obszar prostokątny" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <area shape="circle" coords="30,155,30" alt="bomb side B" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -155,9 +157,9 @@ Podkreślony tekst
           
 
 <div class="flex">
-    <div class="flex-none w-20 bg-blue-300 text-center mr-4" style="margin-right: 0.75rem; margin-left: 1.25rem;">Flex none</div>
+    <div class="flex-none w-15 bg-blue-300 text-center mr-4" style="margin-right: 0.75rem; margin-left: 1.25rem;">Flex none</div>
     <div class="flex-auto w-32 bg-blue-500 text-center mr-4">auto</div>
-    <div class="flex-none w-32 bg-blue-700 text-center">none</div>
+    <div class="flex-none w-20 bg-blue-700 text-center">none</div>
 </div>
 
           <br>
@@ -167,7 +169,7 @@ Podkreślony tekst
         </svg><br>
     </main>
     <footer class="text-black-900" style="background-color: #96D4D4;padding: 1rem;">
-        <p style="margin: 20px;">To jest stópka</p>
+        <p style="margin: 2rem;">To jest stópka</p>
         <br>
         <br>
     </footer>

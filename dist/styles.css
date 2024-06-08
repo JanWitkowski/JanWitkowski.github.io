@@ -505,13 +505,17 @@ video {
 .rounded-lg {
   border-radius: 0.5rem;
 }
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
-.bg-blue-900 {
+.bg-blue-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 .bg-orange-200 {
   --tw-bg-opacity: 1;
@@ -525,20 +529,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
-}
 .text-center {
   text-align: center;
 }
 .text-green-500 {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
-}
-.text-green-900 {
-  --tw-text-opacity: 1;
-  color: rgb(20 83 45 / var(--tw-text-opacity));
 }
 .text-orange-500 {
   --tw-text-opacity: 1;
@@ -560,25 +556,24 @@ body {
 h1 {
     font-size: 2.5rem; 
     font-weight: bold;
-    margin: 20px; padding: 10px 20px;
   }
   
   h2 {
     font-size: 2rem; 
     font-weight: bold;
-    margin: 20px; 
+    margin: 2rem; 
   }
   
   h3 {
     font-size: 1.75rem; 
     font-weight: bold;
-    margin: 20px; padding: 10px 20px;
+    margin: 2rem; padding: 1rem 2rem;
   }
   
   h4 {
     font-size: 1.5rem; 
     font-weight: bold;
-    margin: 20px; padding: 10px 20px;
+    margin: 2rem; padding: 1rem 2rem;
   }
   a {
     color: blue; 
@@ -591,7 +586,7 @@ h1 {
 
 th, td {
   border: 1px solid white;   
-  border-radius: 10px;
+  border-radius: 1rem;
 
   background-color: #96D4D4;
     text-align: left; /* wyrównuje tekst do lewej */
@@ -606,24 +601,24 @@ th, td {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 5rem;
+  height: 5rem;
   background-color: skyblue;
-  margin: 10px;
+  margin: 1rem;
 }
 .box2 {
   
   background-color: skyblue;
-  margin: 10px;
+  margin: 1rem;
 }
 
 .box1 {
   display: flex-auto;
   background-color: skyblue;
-  margin: 10px;
+  margin: 1rem;
 }
 .boxnone {
   display: flex-none;
   background-color: skyblue;
-  margin: 10px;
+  margin: 1rem;
 }

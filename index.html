@@ -34,7 +34,7 @@ Podkreślony tekst
 
 </u></pre>
   
-        <table>
+        <table class="table-auto">
             <caption>
                 <h2>Tytuł Tabeli</h2>
             </caption>
@@ -80,8 +80,10 @@ Podkreślony tekst
         </details>
         <h2>Dodawanie obrazka do strony</h2>
         <img src="src/aston.jpg" alt="DB5" width="400">
-
+        <div class="bg-blue-500">
         <h2>Formularz</h2>
+        </div>
+        <div class="bg-green-500">
         <form action="submit_form" method="post">
             <!-- Text Input Field -->
             <label for="name">Imię:</label>
@@ -105,12 +107,15 @@ Podkreślony tekst
             <!-- Button -->
             <button type="submit">Wyślij</button>
         </form>
+        </div>
         <h2>Paski postępu dla zadań</h2>
 
 
         <h3>Zadanie 1</h3>
+        <div class="shadow-md p-4">
         <progress value="70" max="100"></progress>
         <p>Postęp: 70%</p>
+        </div>
 
 
         <h3>Zadanie 2</h3>
@@ -125,7 +130,7 @@ Podkreślony tekst
             <area shape="circle" coords="180,255,40" alt="bombside A" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
         </map>
     </main>
-    <footer>
+    <footer class="bg-yellow-500 text-gray-900">
         <p>To jest stópka</p>
     </footer>
 </body>
